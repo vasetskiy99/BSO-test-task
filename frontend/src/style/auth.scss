@@ -1,0 +1,39 @@
+.auth-container {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('./../assets/bg/auth_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    width: calc(100% - 20px);
+}
+
+.auth-logo {
+    text-align: center;
+
+    &__image {
+        max-width: 300px;
+    }
+}
+
+.auth-link {
+    color: #d9a405;
+
+    &:hover {
+        color: #a47c05;
+    }
+}
+
+@media (min-width: 520px) {
+    .auth-card {
+        width: 500px;
+    }
+}

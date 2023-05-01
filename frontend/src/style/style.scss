@@ -1,0 +1,26 @@
+$primary: #fff200;
+$pagination-color: var(--bs-dark);
+$pagination-active-bg: var(--bs-dark);
+$pagination-focus-color: var(--bs-dark);
+$pagination-hover-color: var(--bs-dark);
+
+@import "~bootstrap/scss/bootstrap";
+@import "./auth";
+@import "./header.scss";
+@import "./product-card";
+@import "./cart";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: serif;
+}

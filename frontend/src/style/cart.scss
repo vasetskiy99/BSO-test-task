@@ -1,0 +1,37 @@
+.cart-card {
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-card__image {
+    width: auto;
+    height: 100px;
+}
+
+.cart-card__title {
+    font-size: large;
+
+    flex-grow: 1;
+}
+
+.cart-card__price {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.cart-card__like {
+    width: auto;
+    height: 50px;
+
+    cursor: pointer;
+}
+
+.cart-card__empty-link {
+    color: #d9a405;
+
+    font-size: 25px;
+}
